@@ -9,10 +9,6 @@
 
 
 
-
-
-
-
 li {
     list-style: none;
 }
@@ -176,6 +172,10 @@ body {
     margin-left: 20px;
     box-shadow: 10px 10px 40px #aaa;
     border-radius: 40px;
+    /* display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center; */
 
 
 
@@ -230,9 +230,13 @@ h1 {
     background-color: black;
     color: aliceblue;
     margin-top: 20px;
+    
+    margin-left: 90px;
+    
 
 
 }
+
 
 .card_image {
     width: 100%;
@@ -267,6 +271,16 @@ h1 {
 
 }
 
+/* .card_about{
+    position: absolute;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+
+  
+
+} */
+
 
 
 .card {
@@ -279,13 +293,8 @@ h1 {
     margin-top: 40px;
 }
 
-#sale_btn {
-    background-color: black;
-    color: aliceblue;
-    margin-top: 20px;
 
 
-}
 
 .profile,
 .profile_new {
