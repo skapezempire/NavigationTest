@@ -68,7 +68,7 @@ button {
     padding: 9px 25px;
     border: none;
     background-color: gold;
-    border-radius: 20px;
+    border-radius: 4px;
     font-size: large;
     transition: .3s;
     font-weight: bold;
@@ -93,6 +93,7 @@ button:hover {
     width: 100vw;
 
     background-image: url(images/logo.png);
+    
     background-position: center;
     background-size: cover;
    
