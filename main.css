@@ -80,7 +80,9 @@ button:hover {
     background-color: rgba(255, 215, 0, 0.9)
 }
 
-
+body {
+    position: relative;
+}
 
 .upper {
     
@@ -89,7 +91,8 @@ button:hover {
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 100vh;
+    /* height: 100vh; */
+    height: 70vh;
     width: 100vw;
 
     background-image: url(images/logo.png);
@@ -489,4 +492,15 @@ ion-icon:hover {
 
     text-align: center;
 
+}
+
+@media screen and (max-width:414px){
+    .collab {
+        flex-direction: column;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+    
 }
