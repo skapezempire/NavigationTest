@@ -493,7 +493,9 @@ ion-icon:hover {
 
 }
 
-@media screen and (max-width:414px){
+/* responsive */
+
+/* @media screen and (max-width:414px){
     .collab {
         flex-direction: column;
     }
@@ -502,9 +504,9 @@ ion-icon:hover {
         flex-direction: column;
     }
     
-}
+} */
 
-/* responsive */
+
 
 @media (max-width:768px){
     .card{display: flex;
@@ -523,6 +525,7 @@ ion-icon:hover {
         flex-direction: column;
         align-items: center;
         row-gap: 30px;
+        
         
         
 
